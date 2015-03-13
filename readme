@@ -1,0 +1,43 @@
+Project Poke!
+
+Things this is expected to do :
+
+	->	Hold a database of 151 original pokemon.
+	->	Allow an authenticated admin interface.
+	->	Allow PvP battles (upto 5 pokemon in party) of player choice and level.
+	->	Log everything! (be verbose).
+	
+How I will go about doing it :
+	
+	->	Write many small files, and then integrate them as functions into the main file.
+	
+Misc Notes
+
+	-> 	Documentation
+		->	Technical Documentation of game mechanics
+		->	User Manual
+		->	Name / Version Number
+		->	Internal Comments	//help with the code
+		
+	->	Content
+		->	151 original gen 1 pokemon.
+		->	Official base stats from bulbapedia + level gain given by some algo
+		
+	->	Testing
+		->	Test it under against various parameters for software stability, response speed, robustness.
+		->	Should never abruptly terminate. Must always write a log file on error. Must display a user friendly error.
+		
+	->	Porting
+		->	Do not intend to port it to non-unix systems. Will try to ensure unix-like-compatibility (linux, OSX. I only have these two to test it out)
+		
+	->	Packaging.
+		->	An installer script and/or an installer package may be provided. (will need to think this out).
+		->	Make sure all the paths are as expected by the program (compiled binary).
+		
+	->	Directory Structure
+		->	Code (for transparency).
+		->	Content
+			->	Logs
+			->	User (list of admins)
+			->	Data (151 pokemon + abilities, etc).
+	->	Changelog in separate file.
