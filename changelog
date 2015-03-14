@@ -1,0 +1,10 @@
+Project Poke!
+
+Changelog
+
+13 March 2015
+	Formally started project.
+	Wrote the "pokeadd" module. I have left out all logging for now. That'll be implemented later.
+	
+14 March 2015
+	Polished "pokeadd" a bit. I am yet to add logging support, and change the output to binary|append instead of just binary.
